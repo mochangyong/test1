@@ -16,9 +16,9 @@
 			<td>Çì´õ °ª</td>
 		</tr>
 		<%
-			Enumeration e = request.getHeaderNames();
+			Enumeration<String> e = request.getHeaderNames();
 			while (e.hasMoreElements()) {
-				String headerName = (String) e.nextElement();
+				String headerName = e.nextElement();
 		%>
 		<tr>
 			<td><%=headerName%></td>
