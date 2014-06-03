@@ -23,6 +23,8 @@ String name = (String)application.getAttribute("name");
 
 %>
 <h3><%=name %>님의 정보가 모두 저장되었습니다.</h3>
-<a href ="attributTest3.jsp"></a>
+
+<a href ="attributeTest3.jsp">확인하러가기</a>
+
 </body>
 </html>
