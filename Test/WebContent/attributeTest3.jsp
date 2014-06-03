@@ -37,6 +37,9 @@ while(e.hasMoreElements()){
 <td><%=attributeName %></td>
 <td><%=attributeValue %></td>
 </tr>
+<%
+}
+%>
 </table>
 </body>
 </html>
