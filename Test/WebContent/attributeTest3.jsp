@@ -39,6 +39,7 @@ while(e.hasMoreElements()){
 </tr>
 <%
 }
+
 %>
 </table>
 </body>
